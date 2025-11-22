@@ -6,6 +6,8 @@ package Hw10_1;
 // 작성일: 2025.11.12
 // 내용: ToppingDecorator 클래스를 상속받은 페퍼로니 토핑 클래스. 데코레이터 기능을 상세하게 구현하기 위한 클래스이다.
 //***************************
+
+
 public class PepperoniToppingDecorator extends ToppingDecorator {
     public PepperoniToppingDecorator(AbstractPizza pizza) {
         super(pizza);
