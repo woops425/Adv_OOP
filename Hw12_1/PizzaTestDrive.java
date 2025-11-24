@@ -9,6 +9,14 @@ public class PizzaTestDrive {
 // 내용: 팩토리 메소드를 활용하여 새로 추가된 NY과 Chicago 피자에 대한 피자 주문 코드를 구현한 Main 클래스
 //***************************
 
+
+/*
+팩토리 메서드 패턴: 객체를 생성하는 코드를 서브클래스에 위임하여 **느슨한 결합(Loose Coupling)**을 달성하는 데 목적
+객체를 생성하는 책임을 슈퍼클래스(Creator*가 아닌 서브클래스(Concrete Creator)가 담당하도록 함.
+
+정의: 객체를 생성하는 인터페이스를 정의하되, 어떤 클래스의 인스턴스를 만들지는 서브클래스에서 결정하도록 함.
+핵심 원리: 클라이언트 코드는 객체를 생성하는 구체적인 클래스를 알 필요 없이, 슈퍼클래스에 정의된 팩토리 메서드(Factory Method)를 호출하여 객체를 얻음.
+*/
 	public static void main(String[] args) {
 //		// TODO Auto-generated method stub
 //
@@ -45,3 +53,4 @@ public class PizzaTestDrive {
 	}
 
 }
+
