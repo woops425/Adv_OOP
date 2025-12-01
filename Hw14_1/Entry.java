@@ -15,6 +15,7 @@ public abstract class Entry {
         this.name = name;
     }
 
+    // Leaf와 Composite가 공통으로 사용해야 하는 메소드
     public abstract int getSize();
     public abstract void print();
 
